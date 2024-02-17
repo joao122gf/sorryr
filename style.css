@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+/* font-family: "Nunito", sans-serif; */
+
+@media (min-width: 359px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-family: "Nunito", sans-serif;
+    background-image: url(elements/random-images/Site-background-light22.webp);
+    overflow-x: hidden;
+  }
+  .radio {
+    width: 100%;
+    background-color: #212640;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-weight: 600;
+    color: #f2c84b;
+    position: fixed;
+    top: 0px;
+    z-index: 200;
+  }
+  .radio img {
+    margin: 0px 2px;
+  }
+  .itens-radio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 413px;
+    position: relative;
+    left: -26px;
+  }
+  .itens-radio p {
+    margin-right: 15px;
+  }
+
+  .father-app {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .apresentation {
+    width: 70%;
+    background-color: #2f3a59;
+    text-align: center;
+    padding: 30px;
+    margin-top: 150px;
+    color: white;
+    max-width: 346px;
+    border-radius: 15px;
+  }
+  .father-perso {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    color: black;
+  }
+  .perso {
+    gap: 13px;
+    display: flex;
+    width: 70%;
+    max-width: 346px;
+    border-radius: 15px;
+    padding: 23px;
+    color: black;
+    background-color: white;
+    margin: 100px auto 0px auto;
+    font-weight: 500;
+    justify-content: space-around;
+    padding-bottom: 77px;
+  }
+  .perso1 {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .cami {
+    margin-bottom: 20px;
+  }
+
+  .perso2 {
+    width: 48%;
+    max-width: 346px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    text-align: center;
+  }
+  .eu {
+    position: relative;
+    left: -8px;
+    margin-bottom: 20px;
+  }
+  .letter {
+    display: flex;
+    width: 70%;
+    max-width: 346px;
+    border-radius: 15px;
+    padding: 23px;
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+    font-weight: 500;
+    position: relative;
+    bottom: 42px;
+    text-align: left;
+  }
+  .letter p {
+    padding: 12px;
+  }
+
+  .father-naturo {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 346px;
+  }
+  .container-naruto {
+    width: 80%;
+    background-color: #212640;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    color: white;
+    max-width: 346px;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding-top: 31px;
+  }
+  .naruto img {
+    width: 193px;
+  }
+  .sasuke {
+    width: 126px;
+    position: relative;
+    bottom: 65px;
+
+    transform: rotate(181deg);
+    z-index: -1;
+    left: 8rem;
+  }
+  .naruto {
+    display: flex;
+    margin-top: 14px;
+  }
+  .container-naruto p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f2c84b;
+  }
+  .nar-eu {
+    position: relative;
+    left: 2rem;
+  }
+  .nar-ela {
+    position: relative;
+    left: -2rem;
+  }
+
+  .nietz {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+  }
+  .vibez-father {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .box-vibes {
+    margin-top: 100px;
+  }
+  .vibez {
+    border: 1px solid #6d006f;
+    margin: 0 auto;
+    display: flex;
+  }
+  .box-nietz {
+    margin-top: 70px;
+  }
+
+  .father-ryan {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .box-ryan {
+    width: 70%;
+    background-color: #2f3a59;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+    color: white;
+    max-width: 346px;
+    border-radius: 15px;
+  }
+  .ryan {
+    margin-top: 40px;
+  }
+
+  .father-sorry {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .sorry-box {
+    width: 70%;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+    color: rgb(0, 0, 0);
+    max-width: 346px;
+    border-radius: 15px;
+  }
+  .ask {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .yes {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    padding: 40px;
+    background-color: #0fcf00;
+    border-radius: 15px;
+    position: relative;
+    left: -33px;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .no {
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border-radius: 1px;
+  }
+  .sorry-box {
+    margin-bottom: 100px;
+  }
+  .questions a button:hover {
+    cursor: pointer;
+  }
+
+  .active {
+    transition: transform 0.5s ease;
+  }
+
+  .nar-ela,
+  .nar-eu,
+  .eu,
+  .cami {
+    animation: levitar 3s infinite linear;
+  }
+  @keyframes levitar {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  .no {
+    transition: transform 0.2s ease;
+  }
+
+  .player {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    height: 500px;
+    margin: 0 10px;
+    box-shadow: 0 1px 10px gray;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .logo {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+
+  .logo i {
+    font-size: 200px;
+  }
+
+  #musicName {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 30px;
+    display: none;
+  }
+
+  .controls button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .controls i {
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    transition: all 0.2s;
+  }
+
+  .controls i:hover {
+    background-color: lightgray;
+  }
+  .next {
+    width: 50px;
+  }
+}
